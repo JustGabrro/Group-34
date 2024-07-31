@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+}
+
+/* დესედანტი სელექტორი: ყველა პარაგრაფი, რომელიც არის container კლასის div-ის შიგნით */
+.container .paragraph {
+    color: darkblue;
+    font-size: 18px;
+    border: 2px solid darkblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* იმავე სტილი სხვა პარაგრაფებისათვის */
+.paragraph {
+    font-family: Arial, sans-serif;
+}

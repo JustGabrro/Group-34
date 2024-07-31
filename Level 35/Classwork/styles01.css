@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+}
+
+.p1 {
+    color: #720000;
+}
+
+.p2 {
+    color: #333;
+}

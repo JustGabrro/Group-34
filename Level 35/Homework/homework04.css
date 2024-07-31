@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    border-radius: 10px;
+    width: 440px;
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sign-in-form h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #465b65;
+}
+
+.sign-in-form input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #e8f0fe;
+}
+
+.sign-in-form input::placeholder {
+    color: #888;
+}
+
+.forgot-password {
+    align-self: flex-end;
+    margin-bottom: 1.5rem;
+    color: #3c36f0;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.sign-in-form button {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 12px;
+    background-color: #2962ff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.sign-in-form button:hover {
+    background-color: #0056b3;
+}
+
+.sign-in-form a {
+    text-align: end;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #3c36f0;
+    font-weight: bold;
+}
+
+.sign-in-form .sign-up {
+    color: #3c36f0;
+    text-decoration: none;
+    
+}

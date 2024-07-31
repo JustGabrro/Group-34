@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+}
+
+/* საერთო სტილი ყველა პარაგრაფისთვის */
+.paragraph {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* სპეციალური პარაგრაფისთვის სტილი */
+.special-paragraph {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+/* კონკრეტული ID სტილი */
+#paragraph5 {
+    background-color: lightgray;
+    border-color: blue;
+}
+
+/* კონკრეტული ID სტილი */
+#paragraph6 {
+    background-color: lightyellow;
+    border-color: red;
+}

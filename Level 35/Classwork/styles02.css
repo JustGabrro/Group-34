@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+}
+
+#paragraph6 {
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
