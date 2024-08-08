@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+.decoration1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.decoration2 {
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+
+.decoration3 {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
+}
+
+.decoration4 {
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    text-decoration: line-through;
+    text-decoration-style: double;
+    text-decoration-color: gray;
+}
+
+.decoration5 {
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: green;
+}
+
+.decoration6 {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.decoration7 {
+    position: absolute;
+    top: 280px;
+    left: 400px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: black;
+}
+
+.decoration8 {
+    position: absolute;
+    top: 450px;
+    left: 450px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: green;
+}
+
+.decoration9 {
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: black;
+}
+
+.decoration10 {
+    position: absolute;
+    top: 380px;
+    left: 150px;
+    text-decoration: overline;
+    text-decoration-color: black;
+}

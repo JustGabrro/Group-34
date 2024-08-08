@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background using Hex */
+    color: #f5f5f5; /* Light text using Hex */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333; /* Dark grey using Hex */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #ff6600; /* Orange accent using Hex */
+}
+
+header h1 {
+    margin: 0;
+    color: #ff6600; /* Orange color for title using Hex */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #f5f5f5; /* Light text using Hex */
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #ff6600; /* Orange on hover using Hex */
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('mbackground-img.jpg') no-repeat top center;
+    background-color: rgb(34, 34, 34); /* Darker grey using RGB */
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 24px;
+}
+
+/* Games Section */
+.games-section {
+    padding: 50px 0;
+    background-color: rgb(51, 51, 51); /* Slightly lighter grey using RGB */
+    text-align: center;
+}
+
+.games-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.game-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.game-item {
+    background-color: #333; /* Dark grey using Hex */
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.game-item h3 {
+    margin-top: 0;
+}
+
+.game-item img {
+    align-items: center;
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hardware Section */
+.hardware-section {
+    padding: 50px 0;
+    background-color: #2a2a2a; /* Medium dark grey using Hex */
+    text-align: center;
+}
+
+.hardware-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hardware-section p {
+    font-size: 18px;
+}
+
+.click {
+    cursor: pointer;
+    color: blue;
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Dark grey using Hex */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #f5f5f5; /* Light text using Hex */
+}

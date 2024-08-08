@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+}
+
+.image-block {
+    width: 30%; /* Div block width */
+}
+
+.image-block img {
+    width: 100%; /* Image width set to 100% of div block */
+    height: auto; /* Maintains the aspect ratio */
+}

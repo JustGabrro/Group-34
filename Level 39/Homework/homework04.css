@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.decoration1 {
+    text-decoration: underline;
+    text-decoration-color: #ff5733;
+    text-decoration-style: solid;
+}
+
+.decoration2 {
+    text-decoration: underline;
+    text-decoration-color: rgb(54, 162, 235);
+    text-decoration-style: dotted;
+}
+
+.decoration3 {
+    text-decoration: underline;
+    text-decoration-color: #33ff57;
+    text-decoration-style: dashed;
+}
+
+.decoration4 {
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 206, 86);
+    text-decoration-style: double;
+}
+
+.decoration5 {
+    text-decoration: underline;
+    text-decoration-color: #5733ff;
+    text-decoration-style: wavy;
+}
+
+.decoration6 {
+    text-decoration: overline;
+    text-decoration-color: rgb(255, 99, 132);
+    text-decoration-style: solid;
+}
+
+.decoration7 {
+    text-decoration: line-through;
+    text-decoration-color: #57a3ff;
+    text-decoration-style: dotted;
+}
+
+.decoration8 {
+    text-decoration: line-through;
+    text-decoration-color: #a357ff;
+    text-decoration-style: double;
+}
+
+.decoration9 {
+    text-decoration: underline;
+    text-decoration-color: rgb(75, 192, 192);
+    text-decoration-style: wavy;
+}
+
+.decoration10 {
+    text-decoration: line-through;
+    text-decoration-color: #ff57a3;
+    text-decoration-style: dashed;
+}

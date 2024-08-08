@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.paragraphs p {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #ffffff; /* Default white text color */
+}
+
+/* Individual paragraph styles with RGB color codes */
+.para1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 162, 235); /* Blue */
+}
+
+.para2 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 206, 86); /* Yellow */
+}
+
+.para3 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(75, 192, 192); /* Teal */
+}
+
+.para4 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(153, 102, 255); /* Purple */
+}
+
+.para5 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 99, 132); /* Red */
+}
+
+.para6 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 159, 64); /* Orange */
+}
+
+.para7 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 235, 162); /* Green */
+}
+
+.para8 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 54, 162); /* Pink */
+}
+
+.para9 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(192, 192, 192); /* Grey */
+}
+
+.para10 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0); /* Black */
+}
