@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    background-image: url('Tokyo.webp');
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    top: 140px;
+    color: #fff;
+}
+h1{
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}

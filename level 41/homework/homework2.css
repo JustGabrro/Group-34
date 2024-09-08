@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #00ff51;
+    text-align: center;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff00d0;
+}
+a:hover{
+    text-decoration: overline dashed;
+    color: #ff0000;
+    background-color: #000;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #fff;
+    text-transform: uppercase;
+}

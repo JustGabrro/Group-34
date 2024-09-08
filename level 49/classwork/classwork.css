@@ -1,0 +1,39 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24252a;
+    padding: 10px 20px;
+}
+.navbar{
+    color: #fff;
+}
+.navbar .nav-links{
+    display: flex;
+    gap: 50px;
+}
+.navbar .nav-links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar .contact{
+    background-color: #008ca6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+#ad-div{
+    background-color: red;
+    color: #000;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+}

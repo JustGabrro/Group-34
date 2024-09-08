@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Oswald;
+    background-color: #e8f8ff;
+}
+nav{
+    background-color: #8698ff;
+}
+.nav-links, main{
+    text-align: center;
+}
+.nav-links a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: #4e67f8;    
+}
+.nav-links a:hover{
+    color: #0026ff;
+}
+.h-2{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.text, #about-me, #i-know, #skills, #contact-me{
+    padding: 20px 20px;
+}
+img{
+    border-radius: 30px;
+    border: 2px, solid #8698ff;
+}
+ul{
+    list-style: none;
+}
+footer{
+    background-color: #8698ff;
+    text-align: center;
+}
+.facebook{
+    text-decoration: none;
+    color: #4e67f8;
+}
+.facebook:hover{
+    color: #0026ff;
+}

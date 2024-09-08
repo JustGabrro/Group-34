@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main div:nth-child(2n){
+    background-color: #454545;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid;
+}
+main div:nth-child(2n):hover{
+    background-color: red;
+    text-transform: lowercase;
+    border-radius: 30px;
+    border: 5px dotted #f2ff00;
+}
+
+/* Card 1 css */
+
+.card-1{
+    background-color: #f700ff;
+    color: #006e3c;
+    border: 2px solid;
+}
+.card-1:hover{
+    background-color: #ff273c;
+    color: #f2ff00;
+    border: 5px dotted;
+    border-radius: 30px;
+}
+
+/* Card 3 css */
+
+.card-3{
+    background-color: #A28B55;
+    color: #CBE2B5;
+    border: 2px dashed;
+}
+.card-3:hover{
+    background-color: #5B99C2;
+    color: #921A40;
+    border: 5px solid;
+    border-radius: 40px;
+}

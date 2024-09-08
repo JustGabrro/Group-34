@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.parent{
+    position: relative;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.messages{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0000;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

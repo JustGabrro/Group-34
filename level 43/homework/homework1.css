@@ -1,0 +1,12 @@
+ol{
+    text-align: right;
+    background-color: #017898;
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+}
+ul{
+    background-color: #457634;
+    text-align: center;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
