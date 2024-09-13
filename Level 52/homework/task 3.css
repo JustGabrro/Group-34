@@ -4,8 +4,8 @@
     align-items: center;
     justify-items: center;
     flex-direction: center;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     transform: translate(50px 50px);
     scale: 2;
     rotate: 80deg;
@@ -19,8 +19,8 @@
     align-items: center;
     justify-items: center;
     flex-direction: center;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     transform: translate(-50px -50px);
     scale: -2;
     rotate: -80deg;
@@ -34,8 +34,8 @@
     align-items: center;
     justify-items: center;
     flex-direction: center;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     transform: translate(50px 50px);
     scale: 2;
     rotate: 80deg;
@@ -49,8 +49,8 @@
     align-items: center;
     justify-items: center;
     flex-direction: center;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     transform: translate(-50px -50px);
     scale: -2;
     rotate: -80deg;
@@ -64,8 +64,8 @@
     align-items: center;
     justify-items: center;
     flex-direction: center;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     transform: translate(50px 50px);
     scale: 2;
     rotate: 80deg;

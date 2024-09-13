@@ -5,8 +5,8 @@ body{
 }
 
 div{
-    width: 500px;
-    height: 500px;
+    width: 520px;
+    height: 520px;
     background-color: red;
 
     transform: rotate(45deg);
