@@ -1,0 +1,81 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.d1{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.d1:hover{
+    background-color: green;
+    transition-delay: 3s;
+    transition-duration: 3s;
+    transition-property: ease-in;
+    transition-timing-function: 2s;
+    rotate: 45deg;
+}
+
+.d2{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.d2:hover{
+    background-color: orange;
+    transition-delay: 3s;
+    transition-duration: 3s;
+    transition-property: ease-out;
+    transition-timing-function: 2s;
+    rotate: -45deg;
+}
+
+.d3{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.d3:hover{
+    background-color: green;
+    transition-delay: 3s;
+    transition-duration: 3s;
+    transition-property: ease-in;
+    transition-timing-function: 2s;
+    rotate: 45deg;
+}
+
+.d4{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.d4:hover{
+    background-color: orange;
+    transition-delay: 3s;
+    transition-duration: 3s;
+    transition-property: ease-out;
+    transition-timing-function: 2s;
+    rotate: -45deg;
+}
+
+.d5{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.d5:hover{
+    background-color: green;
+    transition-delay: 3s;
+    transition-duration: 3s;
+    transition-property: ease-in;
+    transition-timing-function: 2s;
+    rotate: 45deg;
+}

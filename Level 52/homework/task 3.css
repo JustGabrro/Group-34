@@ -1,0 +1,74 @@
+.d1:hover{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: center;
+    width: 200px;
+    height: 200px;
+    transform: translate(50px 50px);
+    scale: 2;
+    rotate: 80deg;
+    transform: skew(50deg, 50deg);
+    transform-origin: top right;
+}
+
+.d2:hover{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: center;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50px -50px);
+    scale: -2;
+    rotate: -80deg;
+    transform: skew(-50deg, -50deg);
+    transform-origin: bottom right;
+}
+
+.d3:hover{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: center;
+    width: 200px;
+    height: 200px;
+    transform: translate(50px 50px);
+    scale: 2;
+    rotate: 80deg;
+    transform: skew(50deg, 50deg);
+    transform-origin: top right;
+}
+
+.d4:hover{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: center;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50px -50px);
+    scale: -2;
+    rotate: -80deg;
+    transform: skew(-50deg, -50deg);
+    transform-origin: bottom right;
+}
+
+.d5:hover{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: center;
+    width: 200px;
+    height: 200px;
+    transform: translate(50px 50px);
+    scale: 2;
+    rotate: 80deg;
+    transform: skew(50deg, 50deg);
+    transform-origin: top right;
+}

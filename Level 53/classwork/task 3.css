@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+
+    transform: rotate(45deg);
+    transform: translate(0, 125px);
+    transform: skew(30deg);
+}
+
+div:hover{
+    transform: scale(1.5);
+    transform: rotate(720deg);
+    transition-property: ease-in;
+    /* controls how transition happens */
+    transition-duration: 3s;
+    /* controls how long transition goes */
+    transition-delay: 3s;
+    /* controls how much second it needs to wait to start tramsition */
+    transition-timing-function: 3s;
+    /* controls the speed curve of the transition effect. */
+}
+
+/* ease-in --- starts slow then it goes fast and ends with fast too */
+/* ease-out ---  starts fast then it goes fast again and ends slow*/
+/* linear ---  goes normally*/
+/* ease --- starts slow then it goes fast and ends slow */

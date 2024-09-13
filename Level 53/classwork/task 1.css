@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+
+    transform: rotate(45deg);
+    /* ატრიალებს ამ შემთხვევაში div-ს */
+    transform: translate(0, 125px);
+    /* გადააქვს 0px-ით მარჯვნივ და 125px-ით დაბლა */
+    transform: skew(30deg);
+    /* ამ შემთხვევაში ხდება 30 გრადუსიანი რომბი (აკეთებს დახრას) */
+}
+
+div:hover{
+    transform: scale(1.5);
+    /* დიდდება ამ შემთხვევაში 1.5-ჯერ */
+}

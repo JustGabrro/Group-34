@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: rgb(255, 0, 0);
+    width: 500px;
+}
+
+div:hover{
+    background-color: red;
+    color: black;
+    transform: rotate(90deg);
+    border-radius: absolute;
+}
