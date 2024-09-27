@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraph Style</title>
+</head>
+<body>
+
+    <!-- CSS -->
+    <p id="styledParagraph" style="color: red; background-color: yellow; font-weight: bold; font-size: 20px;">
+        This is a styled paragraph.
+    </p>
+
+    <script>
+        // პარაგრაფის წამოღება id-ის მიხედვით და ცვლადში შენახვა
+        let paragraph = document.getElementById("styledParagraph");
+
+        // ობიექტის შექმნა, რომელიც შეიცავს პარაგრაფის სტილს
+        let paragraphStyle = {
+            "color": paragraph.style.color,
+            "bg-color": paragraph.style.backgroundColor,
+            "font-weight": paragraph.style.fontWeight,
+            "font-size": paragraph.style.fontSize
+        };
+
+        // ობიექტის კონსოლში შექმნა
+        console.log(paragraphStyle);
+    </script>
+
+</body>
+</html>
