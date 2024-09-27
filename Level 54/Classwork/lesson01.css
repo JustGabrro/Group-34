@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 100px;
+}
+@keyframes moveAndColorChange {
+    0% {
+        transform: translateX(0px);
+        background-color: red;
+    }
+    50% {
+        transform: translateX(200px);
+        background-color: blue;
+    }
+    100% {
+        transform: translateX(400px);
+        background-color: green;
+    }
+}
+
+/* სტილი ელემენტისთვის */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: moveAndColorChange; /* ანიმაციის სახელი */
+    animation-duration: 5s; /* რამდენ ხანს გაგრძელდება ანიმაცია */
+    animation-iteration-count: infinite; /* რამდენჯერ განმეორდება ანიმაცია */
+}

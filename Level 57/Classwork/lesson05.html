@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <script>
+        function calculateSummary(num1, num2) {
+            return {
+                addition: num1 + num2,
+                subtraction: num1 - num2,
+                multiplication: num1 * num2,
+                division: num1 / num2,
+                modulus: num1 % num2
+            };
+        }
+
+
+        let num = 20;
+        let isEven = num % 2 === 0;
+        let isGreaterThanTen = num > 10;
+
+        
+        let password = "admin1";
+        if (password.length >= 8) {
+            console.log("Password is strong");
+        } else {
+            console.log("Password is weak");
+        }
+
+
+        let name = "John";
+        if (name === "John") {
+            console.log("Hello, John!");
+        } else {
+            console.log("Hello, stranger!");
+        }
+
+    </script>
+</body>
+</html>

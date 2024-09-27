@@ -1,0 +1,26 @@
+.heart {
+    display: grid;
+    margin: auto;
+    padding: 250px;
+}
+
+/* გულის ცემის ანიმაცია */
+@keyframes heartbeat {
+    0% {
+        transform: scale(1.5);
+    }
+    25% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+/* ანიმაციის გამოყენება */
+.heart {
+    animation-name: heartbeat;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
