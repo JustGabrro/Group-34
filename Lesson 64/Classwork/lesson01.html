@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Box</title>
+    <script>
+        function checkAge() {
+            let isAdult = confirm("Are you 18 years or older?");
+            if (isAdult) {
+                alert("You are adult");
+            } else {
+                alert("You are kid");
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="checkAge()">Check Age</button>
+</body>
+</html>

@@ -1,0 +1,108 @@
+.all{
+    display: flex;
+    justify-content: center;
+}
+
+.first{
+    background-color: orange;
+    width: 250px;
+    height: 500px;
+}
+
+.first_word{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.second_word{
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+
+.third_word:hover{
+    background-color: black;
+
+}
+.third_word{
+    background-color: white;
+    color: orange;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+
+}
+
+
+.second{
+    background-color: darkcyan;
+    width: 250px;
+    height: 500px;
+}
+
+.fourth_word{
+    padding: 40px;
+    margin-left: 35px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.fifth_word{
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.sixth_word:hover{
+    background-color: black;
+}
+
+
+.sixth_word{
+    background-color: white;
+    color: darkcyan;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+
+}
+
+
+.third{
+    background-color:hsl(179, 100%, 13%);
+    width: 250px;
+    height: 500px;
+}
+
+.seventh_word{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    padding: 40px;
+    margin-left: 15px;
+}
+
+.eighth_word{
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.ninth_word:hover{
+    background-color: black;
+}
+
+.ninth_word{
+    background-color: white;
+    color: hsl(179, 100%, 13%);;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+}

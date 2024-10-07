@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form with Checkbox</title>
+    <script>
+        function validateForm(event) {
+            event.preventDefault(); // ფორმის ავტომატური დადასტურების თავიდან ასაცილებლად
+            let name = document.getElementById('name').value;
+            let email = document.getElementById('email').value;
+            let password = document.getElementById('password').value;
+            let agree = document.getElementById('agree').checked;
+
+            if (name === "" || email === "" || password === "") {
+                alert("All fields must be filled out.");
+                return;
+            }
+
+            if (!agree) {
+                alert("You must agree to the terms and conditions.");
+                return;
+            }
+
+            // წარმატებული ვალიდაციის შემდეგ მონაცემების კონსოლში გამოტანა
+            console.log("Name: " + name);
+            console.log("Email: " + email);
+            console.log("Password: " + password);
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="validateForm(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password"><br><br>
+
+        <input type="checkbox" id="agree">
+        <label for="agree">I agree to the terms and conditions</label><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>

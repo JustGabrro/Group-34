@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form with Gender</title>
+    <script>
+        // გლობალური მონაცემთა ბაზა ობიექტებისთვის
+        let dataBase = [];
+
+        function validateForm(event) {
+            event.preventDefault();  // ფორმის ავტომატური დადასტურების თავიდან აცილება
+            let name = document.getElementById('name').value;
+            let email = document.getElementById('email').value;
+            let password = document.getElementById('password').value;
+            let gender = document.querySelector('input[name="gender"]:checked')?.value; // შეამოწმეთ არჩეული სქესი
+
+            if (name === "" || email === "" || password === "" || !gender) {
+                alert("All fields must be filled out.");
+                return;
+            }
+
+            // პაროლის სიგრძის შემოწმება
+            if (password.length < 8) {
+                alert("Password is too short");
+                return;
+            }
+
+            // ობიექტის შექმნა შემოტანილი მნიშვნელობებით
+            let user = {
+                name: name,
+                email: email,
+                password: password,
+                gender: gender
+            };
+
+            // ობიექტის დამატება მონაცემთა ბაზაში
+            dataBase.push(user);
+            console.log(dataBase);  // მონაცემთა ბაზის კონსოლში გამოტანა
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="validateForm(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
