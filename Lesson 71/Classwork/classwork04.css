@@ -1,0 +1,9 @@
+* {
+    background-color: rgb(245, 114, 0);
+}
+
+img {
+    width: 100px; 
+    cursor: pointer; 
+    margin: 10px;
+  }
