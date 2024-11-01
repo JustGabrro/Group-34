@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Table </title>
+</head>
+<body>
+    <form id="userForm">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="url" name="facebook" placeholder="Facebook Link" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <table id="userTable" border="1">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Facebook Link</th>
+        </tr>
+    </table>
+
+    <script>
+        document.getElementById("userForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const formData = new FormData(event.target);
+            const table = document.getElementById("userTable");
+            const row = table.insertRow();
+            row.insertCell().textContent = formData.get("name");
+            row.insertCell().textContent = formData.get("email");
+            row.insertCell().textContent = formData.get("password");
+            row.insertCell().textContent = formData.get("facebook");
+            event.target.reset();
+        });
+    </script>
+</body>
+</html>

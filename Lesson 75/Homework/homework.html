@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        #taskInput, button { margin: 5px; }
+        li { list-style: none; margin: 5px 0; }
+        .task-buttons button { margin-left: 5px; }
+    </style>
+</head>
+<body>
+
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button id="addTaskBtn">Add</button>
+    <button id="clearAllBtn">Clear All</button>
+    <ul id="taskList"></ul>
+
+    <script>
+        document.getElementById("addTaskBtn").addEventListener("click", function() {
+            const taskText = document.getElementById("taskInput").value;
+            if (taskText) {
+                const listItem = document.createElement("li");
+                const taskSpan = document.createElement("span");
+                taskSpan.textContent = taskText;
+                listItem.appendChild(taskSpan);
+
+                const editButton = document.createElement("button");
+                editButton.textContent = "Edit";
+                editButton.addEventListener("click", function() {
+                    const input = document.createElement("input");
+                    input.type = "text";
+                    input.value = taskSpan.textContent;
+                    listItem.insertBefore(input, taskSpan);
+                    listItem.removeChild(taskSpan);
+                    editButton.textContent = "Save";
+                    editButton.addEventListener("click", function() {
+                        taskSpan.textContent = input.value;
+                        listItem.insertBefore(taskSpan, input);
+                        listItem.removeChild(input);
+                        editButton.textContent = "Edit";
+                    }, { once: true });
+                });
+                listItem.appendChild(editButton);
+
+                const deleteButton = document.createElement("button");
+                deleteButton.textContent = "Delete";
+                deleteButton.addEventListener("click", function() {
+                    listItem.remove();
+                });
+                listItem.appendChild(deleteButton);
+
+                document.getElementById("taskList").appendChild(listItem);
+                document.getElementById("taskInput").value = "";
+            }
+        });
+
+        document.getElementById("clearAllBtn").addEventListener("click", function() {
+            document.getElementById("taskList").innerHTML = "";
+        });
+    </script>
+
+</body>
+</html>
