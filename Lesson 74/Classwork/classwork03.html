@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Table</title>
+</head>
+<body>
+    <h2>Enter Your Information</h2>
+
+    <form id="userForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required><br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br><br>
+
+        <button type="button" onclick="addRow()">Add to Table</button>
+    </form>
+
+    <h3>User Information Table</h3>
+    <table id="infoTable" border="1">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+    </table>
+
+    <script>
+        function addRow() {
+            const firstName = document.getElementById("firstName").value;
+            const lastName = document.getElementById("lastName").value;
+            const email = document.getElementById("email").value;
+
+            const table = document.getElementById("infoTable");
+
+            const row = table.insertRow();
+
+            const cell1 = row.insertCell(0);
+            const cell2 = row.insertCell(1);
+            const cell3 = row.insertCell(2);
+            const cell4 = row.insertCell(3);
+
+            cell1.textContent = firstName;
+            cell2.textContent = lastName;
+            cell3.textContent = email;
+
+            const deleteButton = document.createElement("button");
+            deleteButton.textContent = "Delete";
+            deleteButton.onclick = function () {
+                table.deleteRow(row.rowIndex);
+            };
+            cell4.appendChild(deleteButton);
+
+            document.getElementById("userForm").reset();
+        }
+    </script>
+</body>
+</html>

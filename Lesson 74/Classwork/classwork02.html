@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <h2>Programming Languages</h2>
+    <ul id="languageList"></ul>
+
+    <script>
+        let languages = ["JavaScript", "Python", "Java", "C++", "Ruby"];
+
+        let languageList = document.getElementById("languageList");
+
+        languages.forEach(language => {
+            let listItem = document.createElement("li"); 
+            listItem.textContent = language;           
+            languageList.appendChild(listItem);          
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerHTML</title>
+</head>
+<body>
+    <div id="content"></div>
+
+    <script>
+        let contentDiv = document.getElementById("content");
+
+        contentDiv.innerHTML = `
+            <p>This is the first paragraph.</p>
+            <p>This is the second paragraph.</p>
+            <p>This is the third paragraph.</p>
+            <button onclick="alert('Button 1 clicked!')">Button 1</button>
+            <button onclick="alert('Button 2 clicked!')">Button 2</button>
+            <h3>This is a heading</h3>
+        `;
+    </script>
+</body>
+</html>
