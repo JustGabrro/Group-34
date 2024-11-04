@@ -1,0 +1,22 @@
+/* 
+
+<p></p>
+<style>
+    * {
+        background: #9D92C8;
+
+        * {
+            border: solid#F9DDC6;
+            border-width: 40 0 0 40;
+            border-radius: 1in 0 0;
+            margin: 52 140-41 180
+        }
+
+        p {
+            width: 80;
+            margin: 83 0 83-80;
+            border-radius: 0
+        }
+    }
+</style>
+

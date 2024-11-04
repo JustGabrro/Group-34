@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(83, 83, 83);
+    border-radius: 50%;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 227, 189);
+    
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid cyan;
+}
+
+.pentagon {
+    width: 100px;
+    height: 100px;
+    background-color: fuchsia;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}

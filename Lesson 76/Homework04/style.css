@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.animate-btn {
+    padding: 40px 60px;
+    font-size: 30px;
+    border: none;
+    background-color: #4682B4;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.5s, letter-spacing 0.3s, background-color 0.5s;
+}
+
+.animate-btn:hover {
+    transform: translateY(-15px);
+}
+
+.animate-btn:active {
+    background-color: #FF6347;
+    letter-spacing: 5px;
+}
