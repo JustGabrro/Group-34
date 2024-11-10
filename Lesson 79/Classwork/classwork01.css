@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 200px;
+}
+
+.btn {
+    padding: 20px 40px;
+    background: linear-gradient(to top left, #28b487, #7dd56f);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 1s, transform 1s;
+}
+
+.btn:active {
+    background: linear-gradient(to top right, #28b487, #7dd56f);
+    transform: translateY(-15px);
+}

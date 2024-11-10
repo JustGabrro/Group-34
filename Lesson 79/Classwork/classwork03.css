@@ -1,0 +1,26 @@
+.button-container {
+    display: flex;
+    gap: 10px;
+  }
+.button {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.popup {
+    display: none;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #008bba59;
+    border: 1px solid #333;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.button:hover + .popup {
+    display: block;
+    opacity: 1;
+}
