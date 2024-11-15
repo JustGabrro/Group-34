@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button-Triggered Animations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="animations">
+    <div id="fadeBox" class="box">Fade In/Out</div>
+    <button onclick="fade()">Fade In/Out</button>
+
+    <div id="slideBox" class="box">Slide In</div>
+    <button onclick="slide()">Slide In</button>
+
+    <div id="ball"></div>
+    <button onclick="moveBall()">Move Ball</button>
+
+    <div id="text" class="box">Resize</div>
+    <button onclick="resizeText()">Change Text Size</button>
+
+    <div id="rotateBox" class="box">Rotate Me</div>
+    <button onclick="rotate()">Rotate</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
