@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Operations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Array Operations</h1>
+
+        <!-- Task 1 -->
+        <div class="task">
+            <h2>Task 1: Display Elements at 2nd and 4th Indices</h2>
+            <label for="task1-input">Enter 5 integers (comma-separated):</label>
+            <input type="text" id="task1-input" placeholder="e.g., 10,20,30,40,50">
+            <button onclick="task1()">Submit</button>
+            <p id="task1-result"></p>
+        </div>
+
+        <!-- Task 2 -->
+        <div class="task">
+            <h2>Task 2: Display Elements at Odd Indices</h2>
+            <label for="task2-count">Enter N:</label>
+            <input type="number" id="task2-count" min="1">
+            <label for="task2-input">Enter N integers (comma-separated):</label>
+            <input type="text" id="task2-input">
+            <button onclick="task2()">Submit</button>
+            <p id="task2-result"></p>
+        </div>
+
+        <!-- Task 3 -->
+        <div class="task">
+            <h2>Task 3: Double Array Values</h2>
+            <button onclick="task3()">Start</button>
+            <p id="task3-result"></p>
+        </div>
+
+        <!-- Task 4 -->
+        <div class="task">
+            <h2>Task 4: Display Array in Reverse Order</h2>
+            <label for="task4-count">Enter N:</label>
+            <input type="number" id="task4-count" min="1">
+            <label for="task4-input">Enter N integers (comma-separated):</label>
+            <input type="text" id="task4-input">
+            <button onclick="task4()">Submit</button>
+            <p id="task4-result"></p>
+        </div>
+
+        <!-- Task 5 -->
+        <div class="task">
+            <h2>Task 5: Swap First and Last Elements</h2>
+            <label for="task5-count">Enter N:</label>
+            <input type="number" id="task5-count" min="1">
+            <label for="task5-input">Enter N integers (comma-separated):</label>
+            <input type="text" id="task5-input">
+            <button onclick="task5()">Submit</button>
+            <p id="task5-result"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

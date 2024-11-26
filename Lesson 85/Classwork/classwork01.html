@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested Divs</title>
+</head>
+<body>
+  <div id="outer">
+    <div>
+      <div>
+        <div>
+          <div>
+            Click Me
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const divs = document.querySelectorAll('#outer div');
+    divs.forEach((div, index) => {
+      div.addEventListener('click', (event) => {
+        console.log(`Clicked: Depth ${index + 1}`);
+        if ((index + 1) % 2 === 0) {
+          event.stopPropagation();
+          console.log('Propagation stopped');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

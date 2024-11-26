@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Nested Divs</title>
+</head>
+<body>
+  <div id="container"></div>
+
+  <script>
+    const container = document.getElementById('container');
+    let parent = container;
+
+    for (let i = 1; i <= 5; i++) {
+      const newDiv = document.createElement('div');
+      newDiv.textContent = `Div at Depth ${i}`;
+      newDiv.style.border = '1px solid black';
+      newDiv.style.margin = '10px';
+      newDiv.style.padding = '10px';
+
+      newDiv.addEventListener('click', (event) => {
+        console.log(`Clicked: Depth ${i}`);
+        if (i % 2 === 0) {
+          event.stopPropagation();
+          console.log('Propagation stopped');
+        }
+      });
+
+      parent.appendChild(newDiv);
+      parent = newDiv;
+    }
+  </script>
+</body>
+</html>
