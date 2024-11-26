@@ -17,7 +17,6 @@ function task2() {
     const n = parseInt(document.getElementById('task2-count').value);
     const input = document.getElementById('task2-input').value;
     const array = input.split(',').map(Number);
-
     if (array.length !== n) {
         document.getElementById('task2-result').textContent = 
             `Please enter exactly ${n} integers.`;
