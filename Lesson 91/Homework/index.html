@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <form id="registrationForm">
+      <label for="fullName">Full Name</label>
+      <input type="text" id="fullName" name="fullName" required>
+      <small class="error-message" id="fullNameError">Full name must be at least 3 characters long and contain only letters.</small>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+      <small class="error-message" id="emailError">Please enter a valid email address.</small>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+      <small class="error-message" id="passwordError">Password must be at least 8 characters long, include an uppercase letter, a number, and a special character.</small>
+
+      <label for="confirmPassword">Confirm Password</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required>
+      <small class="error-message" id="confirmPasswordError">Passwords must match.</small>
+
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" required>
+      <small class="error-message" id="ageError">You must be at least 18 years old.</small>
+
+      <button type="submit" id="submitButton">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

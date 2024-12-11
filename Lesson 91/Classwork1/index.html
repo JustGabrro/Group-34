@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="userForm" onsubmit="return validateForm()">
+            <h2>Register</h2>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="repeatPassword">Repeat Password:</label>
+            <input type="password" id="repeatPassword" name="repeatPassword" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required min="0">
+
+            <div id="errorMessages"></div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
