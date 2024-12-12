@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Cookie Clicker</h1>
+        <div class="score-board">
+            <p>Cookies: <span id="cookie-count">0</span></p>
+            <p>Gold: <span id="gold-count">0</span></p>
+        </div>
+        <button id="cookie-button">Click me!</button>
+        <div class="gadgets">
+            <div class="gadget" id="finger">
+                <p>Bigger Finger</p>
+                <p>Cost: <span id="finger-cost">50</span> gold</p>
+                <button id="buy-finger" disabled>Buy</button>
+            </div>
+            <div class="gadget" id="mines">
+                <p>Better Mines</p>
+                <p>Cost: <span id="mines-cost">100</span> cookies</p>
+                <button id="buy-mines" disabled>Buy</button>
+            </div>
+            <div class="gadget" id="double-cookies">
+                <p>Double Cookies</p>
+                <p>Cost: <span id="double-cookies-cost">200</span> gold</p>
+                <button id="buy-double-cookies" disabled>Buy</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

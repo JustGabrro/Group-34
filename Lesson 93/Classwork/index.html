@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Counter Applications</h1>
+        <!-- Task 1: Basic Counter -->
+        <div class="counter-container" id="basicCounter">
+            <h2>Basic Counter</h2>
+            <div class="counter" id="basicCounterValue">0</div>
+            <button class="button" id="basicIncrementBtn">Increment</button>
+            <button class="button" id="basicDecrementBtn">Decrement</button>
+            <button class="button" id="basicResetBtn">Reset</button>
+        </div>
+
+        <!-- Task 2: Enhanced Counter with Input -->
+        <div class="counter-container" id="enhancedCounter">
+            <h2>Enhanced Counter</h2>
+            <input type="number" id="enhancedInputValue" placeholder="Enter increment/decrement value">
+            <div class="counter" id="enhancedCounterValue">0</div>
+            <button class="button" id="enhancedIncrementBtn">Increment</button>
+            <button class="button" id="enhancedDecrementBtn">Decrement</button>
+            <button class="button" id="enhancedResetBtn">Reset</button>
+        </div>
+
+        <!-- Task 3: Dynamic Counter Generator -->
+        <button class="button" id="addCounterBtn">Add Counter</button>
+        <div id="counters"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
