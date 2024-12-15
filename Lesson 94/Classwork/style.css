@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: colorChange 5s linear infinite;
+  }
+  
+  @keyframes colorChange {
+    0% { background-color: #ff5733; }
+    25% { background-color: #33ff57; }
+    50% { background-color: #3357ff; }
+    75% { background-color: #ff33a1; }
+    100% { background-color: #ff5733; }
+  }
+  
+  .controls {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  button, input[type="range"] {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    .controls {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    button, input[type="range"] {
+      width: 100%;
+    }
+  }
+  

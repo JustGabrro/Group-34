@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-areas: 
+      "header"
+      "content"
+      "right-sidebar"
+      "footer"
+      "left-sidebar";
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .item {
+    background-color: #33A1FF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header { grid-area: header; }
+  .left-sidebar { grid-area: left-sidebar; }
+  .content { grid-area: content; }
+  .right-sidebar { grid-area: right-sidebar; }
+  .footer { grid-area: footer; }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-areas: 
+        "header header header"
+        "left-sidebar content right-sidebar"
+        "footer footer footer";
+      grid-template-columns: 1fr 2fr 1fr;
+    }
+  }
+  

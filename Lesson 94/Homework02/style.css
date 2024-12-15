@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-areas: 
+      "a"
+      "b"
+      "e"
+      "c"
+      "d";
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .item {
+    background-color: #FF5733;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .a { grid-area: a; }
+  .b { grid-area: b; }
+  .e { grid-area: e; }
+  .c { grid-area: c; }
+  .d { grid-area: d; }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-areas: 
+        "a a a a"
+        "b b e e"
+        "c c d d";
+    }
+  }
+  
